@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/celsiusInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Celsius Değeri Girin"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/kelvinCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelvin"
+        android:layout_below="@id/celsiusInput"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/fahrenheitCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit"
+        android:layout_below="@id/kelvinCheckbox"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/convertTemperatureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sıcaklık Dönüştür"
+        android:layout_below="@id/fahrenheitCheckbox"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/decimalInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Decimal Değeri Girin"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/convertTemperatureButton"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/conversionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/decimalInput"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dönüştür"
+        android:layout_below="@id/conversionType"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/convertButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/megabyteInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Megabyte Değeri Girin"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/resultText"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/megabyteConversionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/megabyteInput"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/megabyteConvertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Megabyte Dönüştür"
+        android:layout_below="@id/megabyteConversionType"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/megabyteResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/megabyteConvertButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

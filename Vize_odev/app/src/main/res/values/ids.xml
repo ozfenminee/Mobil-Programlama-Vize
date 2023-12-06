@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="kelvinCheckbox" type="id" />
+    <item name="fahrenheitCheckbox" type="id" />
+    <item name="celsiusInput" type="id" />
+    <item name="convertTemperatureButton" type="id" />
+    <item name="decimalInput" type="id" />
+    <item name="megabyteConvertButton" type="id" />
+    <item name="megabyteResultText" type="id" />
+    <item name="megabyteConversionType" type="id" />
+    <item name="megabyteInput" type="id" />
+    <item name="resultText" type="id" />
+    <item name="convertButton" type="id" />
+    <item name="conversionType" type="id" />
+</resources>

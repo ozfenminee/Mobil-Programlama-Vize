@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/progressBarsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <EditText
+                android:id="@+id/Adet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adet Giriniz"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/MinValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Minimum Değer Giriniz"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/MaxValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Maksimum Değer Giriniz"
+                android:inputType="number" />
+            <Button
+                android:id="@+id/btnGenerate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ProgressBar Oluştur" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
